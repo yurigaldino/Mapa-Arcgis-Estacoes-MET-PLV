@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mapa feito com Arcgis e estações meteorológicas/pluviométricas ">
+    
+    <title>Mapa Estações Arcgis :: Home</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="https://js.arcgis.com/4.16/esri/themes/light/main.css">
+    <script src="https://js.arcgis.com/4.16/"></script>
+    <script src="/map2d.js"></script>
+
+</head>
+<body>
+<h1>Mapa Argis - Estações Meteorológicas</h1>
+<nav>
+  
+<div class="AISMenu">
+    <input type="checkbox" checked/>
+    <div class="hamburger">
+      <div class="dots">
+        <span class="first"></span>
+        <span class="second"></span>
+        <span class="third"></span>
+      </div>
+    </div>
+    <div class="action_items_bar">
+      <div class="action_items">
+        <span class="first_item">
+          <a href="#" class="material-icons" title="Mapa">🗺</a>
+        </span>
+        <span class="second_item">
+          <a href="/objectives/objectives.html" class="material-icons" title="Objetivos">🖈</a>
+        </span>
+        <span class="third_item">
+          <a href="/team/team.html" class="material-icons" title="Equipe">🛉</a>
+        </span>
+        <span class="fourth_item">
+          <a href="/contact/contact.html" class="material-icons" title="Fale conosco">🗪</a>
+        </span>
+      </div>
+    </div>
+  </div>
+  
+</nav>
+
+  <div id="viewDiv"></div>  
+
+  <div class="vertical-menu">
+    <a href="#" class="active" title="Mapa">Mapa</a>
+    <a href="/objectives/objectives.html" class="zoom" title="Objetivos">Objetivos</a>
+    <a href="/team/team.html" class="zoom" title="Equipe">Equipe</a>
+    <a href="/contact/contact.html" class="zoom" title="Fale conosco">Fale conosco</a>
+  </div>
+
+  <img src="/logos/assinaturaVisualCompleta_LAMCE_BackgroundTransparente-02.png" alt="Logo LAMCE Azul com triângulo cinza" title = "Logo do LAMCE - Laboratório de Métodos Computacionais em Engenharia - COPPE-UFRJ" id="logo_lamce" title="Logo LAMCE">
+  <div id="logos"></div>
+</body>
+</html>
