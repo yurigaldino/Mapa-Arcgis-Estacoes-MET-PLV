@@ -16,7 +16,8 @@
       var met_velvento = []
       
       //var plv_variaveis = [0: Urca, 1: Rocinha, 2: Tijuca, 3: Santa Teresa, 4: Copacabana, 5: Grajaú, 6: Ilha do Governador, 7: Penha, 8: Madureira, 9: Bangu, 10: Piedade, 11: Jacarepaguá/Tanque, 12: Saúde, 13: Barra/Barrinha, 14: Jacarepaguá/Cidade de Deus, 15: Est. Grajaú/Jacarepaguá, 16: Grande Méier, 17: Anchieta, 18: Grota Funda, 19: Campo Grande, 20: Sepetiba, 21: Av. Brasil/Mendanha, 22: Recreio dos Bandeirantes, 23: Laranjeiras, 24: Tijuca/Muda]
-      //urca, tijuca, santa teresa, grajau, ilha, penha, grande meier, tijua/muda
+      
+      //grajau, ilha, penha, grande meier, tijua/muda
       var plv_nomes = []
       var plv_latitudes = []
       var plv_longitudes = []
